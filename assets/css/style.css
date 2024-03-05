@@ -11,13 +11,14 @@
 }
 
 header {
-
+    background-color: orange;
 }
 
 main {
-
+    background-color: bisque;
 }
 
 footer {
-
+    background-color: black;
+    color: white;
 }
