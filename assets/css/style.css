@@ -10,14 +10,29 @@
     color: #3a3a3a;
 }
 
+/* General styles */
+body {
+    /* min-height set to push down footer, flex properties set forbasic layout */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
 header {
+    display: flex;
+    z-index: 100;
     background-color: orange;
 }
 
+/* Main content */
 main {
+    /* flex short command allows main content to grow and push footer down */
+    flex: 1 0 auto;
     background-color: bisque;
 }
 
+/* Footer */
 footer {
     background-color: black;
     color: white;
